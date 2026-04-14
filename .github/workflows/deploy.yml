@@ -41,6 +41,7 @@ jobs:
           username: ${{ secrets.VM_USER }}
           key: ${{ secrets.VM_SSH_KEY }}
           command_timeout: 30m
+          debug: true
           script: |
             cd /var/www/devops-portfolio
             git fetch --all
@@ -59,6 +60,7 @@ jobs:
           host: ${{ secrets.VM_HOST }}
           username: ${{ secrets.VM_USER }}
           key: ${{ secrets.VM_SSH_KEY }}
+          debug: true
           script: |
             docker start app-green
             docker stop app-blue
