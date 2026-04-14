@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+
+  app-blue:
+    build: .
+    container_name: app-blue
+    ports:
+      - "3001:80"
+    restart: always
+
+  app-green:
+    build: .
+    container_name: app-green
+    ports:
+      - "3002:80"
+    restart: always
