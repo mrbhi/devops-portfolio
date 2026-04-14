@@ -60,3 +60,4 @@ jobs:
           script: |
             docker start app-green
             docker stop app-blue
+            
