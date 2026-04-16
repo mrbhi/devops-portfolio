@@ -3,10 +3,13 @@ set -e
 
 cd /var/www/devops-portfolio
 
+# Load environment variables
+source /var/www/devops-portfolio/.env
+
 echo "🚀 Starting Blue-Green Deployment..."
 
-# Login to GHCR
-echo $GHCR_TOKEN | docker login ghcr.io -u $GHCR_USER --password-stdin
+# Login to GHCR non-interactively
+echo "${GHCR_TOKEN}" | docker login ghcr.io -u "${GHCR_USER}" --password-stdin
 
 # Pull latest image
 docker pull ghcr.io/mrbhi/devops-portfolio:latest
