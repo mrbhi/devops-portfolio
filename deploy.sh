@@ -1,24 +1,24 @@
 #!/bin/bash
-
 set -e
 
 cd /var/www/devops-portfolio
 
 echo "🚀 Starting Blue-Green Deployment..."
 
-# Always sync with GitHub (prevents merge issues)
-echo "Syncing with repository..."
-git fetch origin main
-git reset --hard origin/main
+# Login to GHCR
+echo $GHCR_TOKEN | docker login ghcr.io -u $GHCR_USER --password-stdin
 
-# Decide active environment
+# Pull latest image
+docker pull ghcr.io/mrbhi/devops-portfolio:latest
+
 if docker ps | grep app-blue > /dev/null; then
-
   echo "🟢 BLUE is live → Deploy GREEN"
-
-  docker compose -f docker-compose.app.yml up -d --build app-green
+  docker stop app-green || true
+  docker rm app-green || true
+  docker run -d --name app-green -p 3002:80 ghcr.io/mrbhi/devops-portfolio:latest
 
   echo "Health check GREEN..."
+  sleep 5
   curl -f http://localhost:3002 || exit 1
 
   echo "Switching traffic to GREEN..."
@@ -29,12 +29,13 @@ if docker ps | grep app-blue > /dev/null; then
   docker stop app-blue || true
 
 else
-
   echo "🔵 GREEN is live → Deploy BLUE"
-
-  docker compose -f docker-compose.app.yml up -d --build app-blue
+  docker stop app-blue || true
+  docker rm app-blue || true
+  docker run -d --name app-blue -p 3001:80 ghcr.io/mrbhi/devops-portfolio:latest
 
   echo "Health check BLUE..."
+  sleep 5
   curl -f http://localhost:3001 || exit 1
 
   echo "Switching traffic to BLUE..."
@@ -43,7 +44,6 @@ else
 
   echo "Stopping GREEN..."
   docker stop app-green || true
-
 fi
 
 echo "✅ Deployment complete"
