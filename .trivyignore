@@ -1,0 +1,3 @@
+# lodash 4.18.0 is a bad/corrupted release, no valid fix available
+# Staying on 4.17.21 as recommended by lodash maintainers
+CVE-2026-4800

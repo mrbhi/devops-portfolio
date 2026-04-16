@@ -28,6 +28,7 @@ jobs:
           scan-type: fs
           severity: CRITICAL,HIGH
           exit-code: 1
+          trivyignores: .trivyignore
 
   build:
     runs-on: ubuntu-latest
