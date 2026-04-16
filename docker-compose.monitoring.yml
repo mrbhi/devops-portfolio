@@ -1,17 +1,22 @@
 version: "3.8"
 
 services:
-
   prometheus:
     image: prom/prometheus
     container_name: prometheus
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
     ports:
-      - "9090:9090"
+      - "127.0.0.1:9090:9090"   # localhost only, not exposed publicly
     restart: always
 
   grafana:
     image: grafana/grafana
     container_name: grafana
     ports:
-      - "3003:3000"
+      - "127.0.0.1:3003:3000"   # localhost only, nginx proxies it
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_PASSWORD}
+      - GF_SERVER_ROOT_URL=https://devops.btesz.com/grafana
+      - GF_SERVER_SERVE_FROM_SUB_PATH=true
     restart: always
