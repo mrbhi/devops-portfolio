@@ -25,6 +25,5 @@ services:
   node-exporter:
     image: prom/node-exporter:latest
     container_name: node-exporter
-    ports:
-      - "127.0.0.1:9100:9100"
+    network_mode: host
     restart: always
