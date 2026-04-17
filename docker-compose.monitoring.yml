@@ -21,3 +21,10 @@ services:
       - GF_SERVER_SERVE_FROM_SUB_PATH=true
       - GF_SERVER_PROTOCOL=http
     restart: always
+
+  node-exporter:
+    image: prom/node-exporter:latest
+    container_name: node-exporter
+    ports:
+      - "127.0.0.1:9100:9100"
+    restart: always
