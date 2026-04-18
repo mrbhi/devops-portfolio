@@ -32,7 +32,7 @@ const Experience = () => {
         'Established Infrastructure as Code using Terraform and Bicep, enabling fast and consistent environment provisioning',
         'Led infrastructure and DevOps support for a Sales Agent AI system deployed on Google Cloud Vertex AI, enabling scalable model deployment and API integration',
       ],
-      technologies: ['Azure' 'GCP', 'Vertex AI', 'Kubernetes', 'Docker', 'Terraform', 'Azure DevOps', 'GitHub Actions', 'Prometheus', 'Grafana'],
+      technologies: ['Azure', 'GCP', 'Vertex AI', 'Kubernetes', 'Docker', 'Terraform', 'Azure DevOps', 'GitHub Actions', 'Prometheus', 'Grafana'],
     },
     {
       title: 'Cloud Engineer',

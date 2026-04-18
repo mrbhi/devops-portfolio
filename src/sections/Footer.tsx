@@ -20,7 +20,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: Github, href: 'https://github.com/mrbhi', label: 'GitHub' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/taofeeq-bello-b0526b207/', label: 'LinkedIn' },
-    // { icon: Twitter, href: 'https://twitter.com/taofeeqbello', label: 'Twitter' },
+    { icon: Twitter, href: 'https://twitter.com/', label: 'Twitter' },
     { icon: Mail, href: 'mailto:taofeeqworld01@gmail.com', label: 'Email' },
   ];
 
