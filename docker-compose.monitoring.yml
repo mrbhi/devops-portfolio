@@ -20,6 +20,8 @@ services:
       - GF_SERVER_ROOT_URL=https://devops.btesz.com/grafana/
       - GF_SERVER_SERVE_FROM_SUB_PATH=true
       - GF_SERVER_PROTOCOL=http
+      - GF_SERVER_DOMAIN=devops.btesz.com
+      - GF_SERVER_ENFORCE_DOMAIN=false
     restart: always
 
   node-exporter:
