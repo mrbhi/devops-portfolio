@@ -24,7 +24,7 @@ const Certifications = () => {
       date: '2025 - 2026',
       credentialId: 'FA52335AC70EE676',
       verifyUrl: 'https://learn.microsoft.com/api/credentials/share/en-us/taofeeqbello-4286/FA52335AC70EE676',
-      status: 'active',
+      status: 'completed',
     },
     {
       name: 'Microsoft Certified: DevOps Engineer Expert',
@@ -32,7 +32,7 @@ const Certifications = () => {
       date: '2024 - 2026',
       credentialId: 'C27036458BF6122C',
       verifyUrl: 'https://learn.microsoft.com/api/credentials/share/en-us/taofeeqbello-4286/C27036458BF6122C',
-      status: 'active',
+      status: 'completed',
     },
     {
       name: 'Microsoft Certified: Cybersecurity Architect Expert',
@@ -40,7 +40,7 @@ const Certifications = () => {
       date: '2025 - 2026',
       credentialId: 'F43916D55E42BEC5',
       verifyUrl: 'https://learn.microsoft.com/api/credentials/share/en-us/taofeeqbello-4286/F43916D55E42BEC5',
-      status: 'active',
+      status: 'completed',
     },
     {
       name: 'Microsoft Certified: Azure Security Engineer Associate',
@@ -48,7 +48,7 @@ const Certifications = () => {
       date: '2025 - 2026',
       credentialId: '7401CFA8ABFC3560',
       verifyUrl: 'https://learn.microsoft.com/api/credentials/share/en-us/taofeeqbello-4286/7401CFA8ABFC3560',
-      status: 'active',
+      status: 'completed',
     },
     {
       name: 'Microsoft Certified: Security Operations Analyst Associate',
@@ -56,7 +56,7 @@ const Certifications = () => {
       date: '2025 - 2026',
       credentialId: '2BF65601997C8BCA',
       verifyUrl: 'https://learn.microsoft.com/api/credentials/share/en-us/taofeeqbello-4286/2BF65601997C8BCA',
-      status: 'active',
+      status: 'completed',
     },
     {
       name: 'Microsoft Certified: Identity and Access Administrator Associate',
@@ -64,7 +64,7 @@ const Certifications = () => {
       date: '2024 - 2026',
       credentialId: 'ED44B4D13D3888AC',
       verifyUrl: 'https://learn.microsoft.com/en-us/users/taofeeqbello-4286/credentials/ed44b4d13d3888ac',
-      status: 'active',
+      status: 'completed',
     },
     {
       name: 'Microsoft Certified: Azure Administrator Associate',
@@ -72,7 +72,7 @@ const Certifications = () => {
       date: '2024 - 2026',
       credentialId: 'FAC1BFEDB0213AF0',
       verifyUrl: 'https://learn.microsoft.com/api/credentials/share/en-us/taofeeqbello-4286/FAC1BFEDB0213AF0',
-      status: 'active',
+      status: 'completed',
     },
     {
       name: 'Microsoft Certified: Azure Developer Associate',
@@ -80,7 +80,7 @@ const Certifications = () => {
       date: '2025 - 2026',
       credentialId: '645C6F2ADED5366A',
       verifyUrl: 'https://learn.microsoft.com/api/credentials/share/en-us/taofeeqbello-4286/645C6F2ADED5366A',
-      status: 'active',
+      status: 'completed',
     },
     {
       name: 'Microsoft Certified: Azure AI Engineer Associate',
@@ -88,7 +88,7 @@ const Certifications = () => {
       date: '2025 - 2026',
       credentialId: '59E76BBB5ED17AB2',
       verifyUrl: 'https://learn.microsoft.com/api/credentials/share/en-us/taofeeqbello-4286/59E76BBB5ED17AB2',
-      status: 'active',
+      status: 'completed',
     },
     {
       name: 'Microsoft Certified: Azure Fundamentals',
@@ -120,7 +120,7 @@ const Certifications = () => {
       date: '2025 - 2029',
       credentialId: '676DAD7F-C741-4CA4-AB1D-8455901F5E51',
       verifyUrl: 'https://www.credly.com/badges/676dad7f-c741-4ca4-ab1d-8455901f5e51',
-      status: 'active',
+      status: 'completed',
     },
     {
       name: 'GitHub Administration Certification',
@@ -128,7 +128,7 @@ const Certifications = () => {
       date: '2025 - 2028',
       credentialId: '20AF06FC-C273-4FBC-BD47-7DC84EE3CE57',
       verifyUrl: 'https://www.credly.com/badges/20af06fc-c273-4fbc-bd47-7dc84ee3ce57',
-      status: 'active',
+      status: 'completed',
     },
     {
       name: 'GitHub Advanced Security',
@@ -136,7 +136,7 @@ const Certifications = () => {
       date: '2025 - 2028',
       credentialId: '9ADDE057-3988-4AFB-82A9-4923CDAA94C4',
       verifyUrl: 'https://www.credly.com/badges/9adde057-3988-4afb-82a9-4923cdaa94c4',
-      status: 'active',
+      status: 'completed',
     },
     {
       name: 'GitHub Foundations',
@@ -144,7 +144,7 @@ const Certifications = () => {
       date: '2025 - 2028',
       credentialId: 'F124B0EB-65FA-4BD6-9F3F-2A2D9FAC2FF2',
       verifyUrl: 'https://www.credly.com/badges/f124b0eb-65fa-4bd6-9f3f-2a2d9fac2ff2',
-      status: 'active',
+      status: 'completed',
     },
     {
       name: 'GitHub Copilot Certification',
@@ -152,7 +152,7 @@ const Certifications = () => {
       date: '2025 - 2028',
       credentialId: '80E3FA91-55F3-4E3C-B24F-E397AFA54C5B',
       verifyUrl: 'https://www.credly.com/badges/80e3fa91-55f3-4e3c-b24f-e397afa54c5b',
-      status: 'active',
+      status: 'completed',
     },
     {
       name: 'Oracle Cloud Infrastructure AI Foundations Associate',

@@ -10,7 +10,7 @@ interface EducationItem {
   institution: string;
   location: string;
   period: string;
-  description?: string;
+  description?: string[];
   achievements?: string[];
   gpa?: string;
 }
