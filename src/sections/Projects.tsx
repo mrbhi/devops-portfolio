@@ -25,7 +25,7 @@ const Projects = () => {
       image: '/project1.jpg',
       technologies: ['Kubernetes', 'Docker', 'Jenkins', 'AWS', 'Istio', 'Prometheus'],
       liveUrl: 'https://demo.example.com',
-      githubUrl: 'https://github.com/taofeeqbello/ecommerce-microservices',
+      githubUrl: 'https://github.com/mrbhi/ecommerce-microservices',
       featured: true,
     },
     {
@@ -34,7 +34,7 @@ const Projects = () => {
       image: '/project2.jpg',
       technologies: ['Prometheus', 'Grafana', 'ELK Stack', 'Alertmanager', 'Thanos'],
       liveUrl: 'https://monitoring.example.com',
-      githubUrl: 'https://github.com/taofeeqbello/monitoring-stack',
+      githubUrl: 'https://github.com/mrbhi/monitoring-stack',
       featured: true,
     },
     {
@@ -42,7 +42,7 @@ const Projects = () => {
       description: 'Automated tool for analyzing and optimizing cloud resource usage across AWS, Azure, and GCP. Implemented automated resource scheduling and rightsizing recommendations.',
       image: '/project3.jpg',
       technologies: ['Python', 'AWS Lambda', 'Terraform', 'Cost Explorer API', 'Slack API'],
-      githubUrl: 'https://github.com/taofeeqbello/cost-optimizer',
+      githubUrl: 'https://github.com/mrbhi/cost-optimizer',
       featured: false,
     },
     {
@@ -50,7 +50,7 @@ const Projects = () => {
       description: 'End-to-end GitOps platform using ArgoCD for declarative continuous delivery. Enables teams to deploy applications with pull-based automation and drift detection.',
       image: '/project1.jpg',
       technologies: ['ArgoCD', 'Kubernetes', 'Helm', 'GitHub Actions', 'Jsonnet'],
-      githubUrl: 'https://github.com/taofeeqbello/gitops-platform',
+      githubUrl: 'https://github.com/mrbhi/gitops-platform',
       featured: false,
     },
     {
@@ -58,7 +58,7 @@ const Projects = () => {
       description: 'Integrated security scanning into CI/CD pipelines with vulnerability detection, SAST/DAST analysis, and compliance reporting for container images and infrastructure.',
       image: '/project2.jpg',
       technologies: ['Trivy', 'SonarQube', 'OWASP ZAP', 'Snyk', 'Jenkins'],
-      githubUrl: 'https://github.com/taofeeqbello/security-pipeline',
+      githubUrl: 'https://github.com/mrbhi/security-pipeline',
       featured: false,
     },
     {
@@ -66,7 +66,7 @@ const Projects = () => {
       description: 'Reusable Terraform modules for provisioning production-ready infrastructure across multiple environments with best practices for security, monitoring, and cost optimization.',
       image: '/project3.jpg',
       technologies: ['Terraform', 'AWS', 'Azure', 'Terragrunt', 'Checkov'],
-      githubUrl: 'https://github.com/taofeeqbello/terraform-modules',
+      githubUrl: 'https://github.com/mrbhi/terraform-modules',
       featured: false,
     },
   ];
@@ -223,7 +223,7 @@ const Projects = () => {
         {/* View All Button */}
         <div className="text-center mt-12">
           <a
-            href="https://github.com/taofeeqbello"
+            href="https://github.com/mrbhi"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 glass text-[#b8c0cc] rounded-lg hover:text-white hover:border-[#00d4ff]/30 transition-all group"

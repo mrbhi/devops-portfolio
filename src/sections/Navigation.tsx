@@ -82,7 +82,7 @@ const Navigation = () => {
             {/* CTA Button */}
             <div className="hidden lg:block">
               <a
-                href="/resume.pdf"
+                href="https://drive.google.com/file/d/1DT_y-yHHmBu4QNOEPE_TuT_26J9jYAcG/view?usp=sharing"
                 download
                 className="btn-primary flex items-center gap-2"
               >

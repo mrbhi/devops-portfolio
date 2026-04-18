@@ -93,8 +93,8 @@ const About = () => {
 
   const stats = [
     { icon: Code2, value: '3+', label: 'Years Experience' },
-    { icon: Cloud, value: '50+', label: 'Cloud Deployments' },
-    { icon: Terminal, value: '100+', label: 'CI/CD Pipelines' },
+    { icon: Cloud, value: '10+', label: 'Cloud Deployments' },
+    { icon: Terminal, value: '30+', label: 'CI/CD Pipelines' },
     { icon: Cpu, value: '99.9%', label: 'Uptime Achieved' },
   ];
 
@@ -132,7 +132,7 @@ const About = () => {
                   </div>
                   <div>
                     <p className="text-white font-semibold">Cloud Expert</p>
-                    <p className="text-[#8a94a6] text-sm">AWS | Azure | GCP</p>
+                    <p className="text-[#8a94a6] text-sm">Azure | GCP</p>
                   </div>
                 </div>
               </div>

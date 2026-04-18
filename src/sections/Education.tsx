@@ -20,17 +20,55 @@ const Education = () => {
 
   const education: EducationItem[] = [
     {
+      degree: 'Masters of Science in Computer Science',
+      institution: 'University of Ibadan',
+      location: 'Ibdan, Nigeria',
+      period: '2022 - 2024',
+      description: [
+        'Specialized in machine learning, artificial intelligence, and cloud computing systems',
+        'Conducted research on explainable AI for medical diagnosis and decision support systems',
+        'Developed a predictive model for breast cancer detection using EfficientNet and LIME'
+      ]
+      // description: 'Focused on software engineering, database systems, and network administration. Graduated with honors.',
+      // achievements: [
+      //   'First Class Honors',
+      //   'Best Graduating Student - Computer Science Department',
+      //   'President, Computer Science Student Association',
+      // ],
+      // gpa: '4.5/5.0',
+    },
+    {
       degree: 'Bachelor of Science in Computer Science',
-      institution: 'University of Lagos',
-      location: 'Lagos, Nigeria',
+      institution: 'Adekunle Ajasin University Akungba',
+      location: 'Ondo, Nigeria',
       period: '2016 - 2020',
-      description: 'Focused on software engineering, database systems, and network administration. Graduated with honors.',
-      achievements: [
-        'First Class Honors',
-        'Best Graduating Student - Computer Science Department',
-        'President, Computer Science Student Association',
+      description: [
+        'Focused on software engineering, databases, algorithms, and system design',
+        'Developed academic research project using WEKA for predictive analytics'
       ],
-      gpa: '4.5/5.0',
+      // description: 'Focused on software engineering, database systems, and network administration.',
+      // achievements: [
+      //   'First Class Honors',
+      //   'Best Graduating Student - Computer Science Department',
+      //   'President, Computer Science Student Association',
+      // ],
+      // gpa: '4.5/5.0',
+    },
+    {
+      degree: 'National Diploma in Computer Science',
+      institution: 'Rufus Giwa Polytechnic, Owo',
+      location: 'Ondo, Nigeria',
+      period: '2013 - 2015',
+      description: [
+        'Studied foundational computer science including programming, networking, and systems analysis'
+      ]
+      // description: 'Focused on software engineering, database systems, and network administration.',
+      // achievements: [
+      //   'First Class Honors',
+      //   'Best Graduating Student - Computer Science Department',
+      //   'President, Computer Science Student Association',
+      // ],
+      // gpa: '4.5/5.0',
     },
   ];
 

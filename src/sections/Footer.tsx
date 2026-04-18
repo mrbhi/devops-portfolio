@@ -18,10 +18,10 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/taofeeqbello', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/taofeeqbello', label: 'LinkedIn' },
-    { icon: Twitter, href: 'https://twitter.com/taofeeqbello', label: 'Twitter' },
-    { icon: Mail, href: 'mailto:taofeeq@mrbhi.com', label: 'Email' },
+    { icon: Github, href: 'https://github.com/mrbhi', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/taofeeq-bello-b0526b207/', label: 'LinkedIn' },
+    // { icon: Twitter, href: 'https://twitter.com/taofeeqbello', label: 'Twitter' },
+    { icon: Mail, href: 'mailto:taofeeqworld01@gmail.com', label: 'Email' },
   ];
 
   return (
@@ -82,11 +82,11 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="mailto:taofeeq@mrbhi.com"
+                  href="mailto:taofeeqworld01@gmail.com"
                   className="text-[#8a94a6] hover:text-[#00d4ff] transition-colors text-sm flex items-center gap-2"
                 >
                   <Mail size={14} />
-                  taofeeq@mrbhi.com
+                  taofeeqworld01@gmail.com
                 </a>
               </li>
               <li className="text-[#8a94a6] text-sm">

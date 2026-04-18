@@ -16,15 +16,16 @@ const Skills = () => {
 
   const skills: Skill[] = [
     // Cloud
-    { name: 'AWS', category: 'Cloud', level: 90 },
-    { name: 'Azure', category: 'Cloud', level: 85 },
-    { name: 'GCP', category: 'Cloud', level: 75 },
+    { name: 'Azure', category: 'Cloud', level: 95 },
+    { name: 'GCP', category: 'Cloud', level: 85 },
+    { name: 'AWS', category: 'Cloud', level: 75 },
     
     // CI/CD
-    { name: 'Jenkins', category: 'CI/CD', level: 90 },
+    { name: 'Azure DevOps', category: 'CI/CD', level: 95 },
     { name: 'GitHub Actions', category: 'CI/CD', level: 95 },
-    { name: 'GitLab CI', category: 'CI/CD', level: 85 },
-    { name: 'Azure DevOps', category: 'CI/CD', level: 88 },
+    { name: 'Jenkins', category: 'CI/CD', level: 85 },
+    { name: 'GitLab CI', category: 'CI/CD', level: 80 },
+    
     
     // Containers
     { name: 'Docker', category: 'Containers', level: 95 },
@@ -35,19 +36,19 @@ const Skills = () => {
     // IaC
     { name: 'Terraform', category: 'IaC', level: 92 },
     { name: 'Ansible', category: 'IaC', level: 85 },
-    { name: 'CloudFormation', category: 'IaC', level: 80 },
+    { name: 'CloudFormation', category: 'IaC', level: 75 },
     { name: 'Pulumi', category: 'IaC', level: 70 },
     
     // Monitoring
-    { name: 'Prometheus', category: 'Monitoring', level: 88 },
-    { name: 'Grafana', category: 'Monitoring', level: 90 },
-    { name: 'ELK Stack', category: 'Monitoring', level: 82 },
-    { name: 'Datadog', category: 'Monitoring', level: 78 },
+    { name: 'Prometheus', category: 'Monitoring', level: 92 },
+    { name: 'Grafana', category: 'Monitoring', level: 92 },
+    { name: 'ELK Stack', category: 'Monitoring', level: 75 },
+    { name: 'Datadog', category: 'Monitoring', level: 70 },
     
     // Scripting
-    { name: 'Python', category: 'Scripting', level: 88 },
+    { name: 'Python', category: 'Scripting', level: 95 },
     { name: 'Bash', category: 'Scripting', level: 92 },
-    { name: 'PowerShell', category: 'Scripting', level: 80 },
+    { name: 'PowerShell', category: 'Scripting', level: 85 },
     { name: 'Go', category: 'Scripting', level: 70 },
     
     // Version Control
