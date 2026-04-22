@@ -19,7 +19,7 @@ const Certifications = () => {
 
   const certifications: Certification[] = [
     {
-      name: 'Microsoft Certified: Azure Solutions Architect Expert',
+      name: 'Azure Solutions Architect Expert',
       issuer: 'Microsoft',
       date: '2025 - 2026',
       credentialId: 'FA52335AC70EE676',
@@ -27,7 +27,7 @@ const Certifications = () => {
       status: 'completed',
     },
     {
-      name: 'Microsoft Certified: DevOps Engineer Expert',
+      name: 'DevOps Engineer Expert',
       issuer: 'Microsoft',
       date: '2024 - 2026',
       credentialId: 'C27036458BF6122C',
@@ -35,7 +35,7 @@ const Certifications = () => {
       status: 'completed',
     },
     {
-      name: 'Microsoft Certified: Cybersecurity Architect Expert',
+      name: 'Cybersecurity Architect Expert',
       issuer: 'Microsoft',
       date: '2025 - 2026',
       credentialId: 'F43916D55E42BEC5',
@@ -43,7 +43,7 @@ const Certifications = () => {
       status: 'completed',
     },
     {
-      name: 'Microsoft Certified: Azure Security Engineer Associate',
+      name: 'Azure Security Engineer Associate',
       issuer: 'Microsoft',
       date: '2025 - 2026',
       credentialId: '7401CFA8ABFC3560',
@@ -51,7 +51,7 @@ const Certifications = () => {
       status: 'completed',
     },
     {
-      name: 'Microsoft Certified: Security Operations Analyst Associate',
+      name: 'Security Operations Analyst Associate',
       issuer: 'Microsoft',
       date: '2025 - 2026',
       credentialId: '2BF65601997C8BCA',
@@ -59,7 +59,7 @@ const Certifications = () => {
       status: 'completed',
     },
     {
-      name: 'Microsoft Certified: Identity and Access Administrator Associate',
+      name: 'Identity and Access Administrator Associate',
       issuer: 'Microsoft',
       date: '2024 - 2026',
       credentialId: 'ED44B4D13D3888AC',
@@ -67,7 +67,7 @@ const Certifications = () => {
       status: 'completed',
     },
     {
-      name: 'Microsoft Certified: Azure Administrator Associate',
+      name: 'Azure Administrator Associate',
       issuer: 'Microsoft',
       date: '2024 - 2026',
       credentialId: 'FAC1BFEDB0213AF0',
@@ -75,7 +75,7 @@ const Certifications = () => {
       status: 'completed',
     },
     {
-      name: 'Microsoft Certified: Azure Developer Associate',
+      name: 'Azure Developer Associate',
       issuer: 'Microsoft',
       date: '2025 - 2026',
       credentialId: '645C6F2ADED5366A',
@@ -83,7 +83,7 @@ const Certifications = () => {
       status: 'completed',
     },
     {
-      name: 'Microsoft Certified: Azure AI Engineer Associate',
+      name: 'Azure AI Engineer Associate',
       issuer: 'Microsoft',
       date: '2025 - 2026',
       credentialId: '59E76BBB5ED17AB2',
@@ -91,7 +91,7 @@ const Certifications = () => {
       status: 'completed',
     },
     {
-      name: 'Microsoft Certified: Azure Fundamentals',
+      name: 'Azure Fundamentals',
       issuer: 'Microsoft',
       date: '2023',
       credentialId: '3D0D9E5F-7F05-4C90-AED9-D577969F8871',
@@ -99,7 +99,7 @@ const Certifications = () => {
       status: 'completed',
     },
     {
-      name: 'Microsoft Certified: Azure AI Fundamentals',
+      name: 'Azure AI Fundamentals',
       issuer: 'Microsoft',
       date: '2023',
       credentialId: '15337F42-23A5-4813-93E1-D4AD8680DB74',
@@ -107,7 +107,7 @@ const Certifications = () => {
       status: 'completed',
     },
     {
-      name: 'Microsoft Certified: Azure Data Fundamentals',
+      name: 'Azure Data Fundamentals',
       issuer: 'Microsoft',
       date: '2023',
       credentialId: '7310D996-A360-495E-AC0F-01A2C3EE92E9',
@@ -155,7 +155,7 @@ const Certifications = () => {
       status: 'completed',
     },
     {
-      name: 'Oracle Cloud Infrastructure AI Foundations Associate',
+      name: 'OCI AI Foundations Associate',
       issuer: 'Oracle',
       date: '2023',
       credentialId: '22B756CF8CB9C7D2BD156E98457AEF79324EB575369161CA41600E690F6FCCE2',
