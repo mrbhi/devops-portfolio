@@ -129,6 +129,7 @@ const Contact = () => {
         alert("Something went wrong");
       }
     } catch (error) {
+      console.error("Form submission error:", error);
       alert("Error submitting form");
     }
   
