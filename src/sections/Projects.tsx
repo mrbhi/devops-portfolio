@@ -21,7 +21,7 @@ const Projects = () => {
   const projects: Project[] = [
     {
       title: 'DevOps Portfolio Infrastructure',
-      description: 'Architected and deployed a production-grade DevOps portfolio platform on Azure, demonstrating end-to-end infrastructure ownership. Engineered a zero-downtime blue-green deployment pipeline using GitHub Actions, Docker, and GHCR, eliminating deployment risk through automated health checks and instant traffic switching. Implemented a comprehensive observability stack with Prometheus and Grafana, monitoring VM-level metrics including CPU, memory, disk and network. Secured the infrastructure with nginx reverse proxy, Let's Encrypt SSL/TLS automation, and network-level port isolation — keeping monitoring tools completely inaccessible from the public internet.',
+      description: "Architected and deployed a production-grade DevOps portfolio platform on Azure, demonstrating end-to-end infrastructure ownership. Engineered a zero-downtime blue-green deployment pipeline using GitHub Actions, Docker, and GHCR, eliminating deployment risk through automated health checks and instant traffic switching. Implemented a comprehensive observability stack with Prometheus and Grafana, monitoring VM-level metrics including CPU, memory, disk and network. Secured the infrastructure with nginx reverse proxy, Let's Encrypt SSL/TLS automation, and network-level port isolation — keeping monitoring tools completely inaccessible from the public internet.",
       image: '/project1.jpg',
       technologies: ['Azure VM', 'GitHub', 'GitHub Action', 'Docker', 'Blue-Green Deploy', 'Prometheus', 'Grafana', 'nginx', 'GHCR'],
       liveUrl: 'https://taofeeq.btesz.com',
